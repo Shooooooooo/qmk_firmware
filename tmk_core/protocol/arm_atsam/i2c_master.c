@@ -17,6 +17,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "arm_atsam_protocol.h"
 
+__attribute__((__aligned__(16))) DmacDescriptor dmac_desc;
+__attribute__((__aligned__(16))) DmacDescriptor dmac_desc_wb;
+
 #if !defined(MD_BOOTLOADER) && defined(RGB_MATRIX_ENABLE)
 
 #    include <string.h>

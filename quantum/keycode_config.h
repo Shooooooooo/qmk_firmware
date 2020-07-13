@@ -14,12 +14,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#ifndef KEYCODE_CONFIG_H
+#define KEYCODE_CONFIG_H
+
 #include "eeconfig.h"
 #include "keycode.h"
 #include "action_code.h"
-
-#ifndef KEYCODE_CONFIG_H
-#    define KEYCODE_CONFIG_H
 
 uint16_t keycode_config(uint16_t keycode);
 uint8_t  mod_config(uint8_t mod);

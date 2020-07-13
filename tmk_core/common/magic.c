@@ -12,7 +12,7 @@
 #include "eeconfig.h"
 #include "magic.h"
 
-keymap_config_t keymap_config;
+extern keymap_config_t keymap_config;
 
 /** \brief Magic
  *
